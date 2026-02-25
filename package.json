@@ -1,9 +1,13 @@
 {
-  "name": "playwrightautomation",
+  "name": "demoqa-playwright-assignment",
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "DemoQA Automation Framework using Playwright",
   "main": "index.js",
-  "scripts": {},
+ "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
